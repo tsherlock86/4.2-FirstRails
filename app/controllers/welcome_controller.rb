@@ -30,7 +30,7 @@ class WelcomeController < ApplicationController
       # elsif @num == "random"
       #   @text = Lipsum.random
       else
-        @text = "But you didn't pick 1, 2, or 3 so I give you nothing.."
+        @text = "But you didn't pick 1, 2, or 3 so I give you nothing ha!.."
       end
       @output = []
        @times.to_i.times do @output << @text end
